@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.dqs.shangri.seekbar.SeekBarRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@id/seek_bar_relative_layout_describe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="17.5dp"
+        android:text="强度"
+        android:textColor="@color/color_9d9d9d"
+        android:textSize="13sp" />
+
+    <TextView
+        android:id="@id/seek_bar_relative_layout_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="24dp"
+        android:text="0"
+        android:textColor="@color/color_9d9d9d"
+        android:textSize="13sp" />
+
+    <SeekBar
+        android:id="@id/seek_bar_relative_layout_seek_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="25dp"
+        android:background="@null"
+        android:max="100"
+        android:maxHeight="3px"
+        android:minHeight="3px"
+        android:progress="100"
+        android:progressDrawable="@drawable/beauty_face_seek_bar"
+        android:splitTrack="false"
+        android:thumb="@drawable/beauty_thumb" />
+
+</com.dqs.shangri.seekbar.SeekBarRelativeLayout>
